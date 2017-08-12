@@ -1,0 +1,83 @@
+body{
+    margin:0px;
+    padding:0px;
+    font-family:verdana;
+    font-size:15px;
+    background-color: #e5e4d7;
+}
+
+.container{
+    width:90%;
+    margin:20px auto;
+    background:#9c9f84;
+    padding:10px;
+}
+
+.container .header{
+    padding:10px;
+    margin:10px;
+    background:#5c755e;
+    height:100px;
+    border-radius:10px 10px 0px 0px;
+}
+
+.container .navbar{
+    background:#000;
+    color:#fff;
+    margin:10px;
+    padding:10px;
+    border-radius: 10px;
+}
+
+.container .navbar ul {
+    list-style: none;
+    text-align:center;
+    font-size:16px;
+}
+
+.container .navbar ul li{
+    display:inline-block;
+    margin-left:10px;
+    border-radius: 5px;
+}
+
+.container .navbar ul li a{
+    color:#fff;
+    padding:10px;
+    font-family:Calibri;
+    text-decoration: none;
+}
+
+.container .navbar ul li a:hover{
+    color:#000;
+    background:#fff;
+}
+
+.container .navbar ul li a.current{
+    color:#000;
+    background:#fff;
+    padding:10px;
+    font-family:Calibri;
+    text-decoration: none;
+}
+
+.container .main{
+    background: #e5e4d7;
+    margin-top:10px;
+    margin-left:10px;
+    margin-bottom:10px;
+    padding:20px;
+    border-radius: 10px 10px 0px 0px;
+    margin-right:320px;
+}
+
+.container .rightSideBar{
+    width:260px;
+    margin:0px 10px 10px 10px;
+    padding:20px;
+    background:#5c755e ;
+   
+    border-radius:10px;
+    float:right;
+    clear:right;
+    }
